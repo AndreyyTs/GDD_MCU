@@ -1,0 +1,99 @@
+$date
+	Tue Oct 10 13:19:57 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module regfile_tb $end
+$var wire 32 ! read_data2 [31:0] $end
+$var wire 32 " read_data1 [31:0] $end
+$var wire 32 # log_reg_3 [31:0] $end
+$var wire 32 $ log_reg_2 [31:0] $end
+$var wire 32 % log_reg_1 [31:0] $end
+$var reg 1 & clk $end
+$var reg 5 ' read_reg1 [4:0] $end
+$var reg 5 ( read_reg2 [4:0] $end
+$var reg 1 ) rst $end
+$var reg 32 * write_data [31:0] $end
+$var reg 1 + write_en $end
+$var reg 5 , write_reg [4:0] $end
+$scope module uut $end
+$var wire 1 & clk $end
+$var wire 32 - log_reg_1 [31:0] $end
+$var wire 32 . log_reg_2 [31:0] $end
+$var wire 32 / log_reg_3 [31:0] $end
+$var wire 5 0 read_reg1 [4:0] $end
+$var wire 5 1 read_reg2 [4:0] $end
+$var wire 1 ) rst $end
+$var wire 32 2 write_data [31:0] $end
+$var wire 1 + write_en $end
+$var wire 5 3 write_reg [4:0] $end
+$var wire 32 4 read_data2 [31:0] $end
+$var wire 32 5 read_data1 [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx 5
+bx 4
+bx 3
+bx 2
+bx 1
+bx 0
+bx /
+bx .
+bx -
+bx ,
+1+
+bx *
+x)
+bx (
+bx '
+0&
+bx %
+bx $
+bx #
+bx "
+bx !
+$end
+#20
+b1010100010001 *
+b1010100010001 2
+b1 ,
+b1 3
+#40
+b1010100010001 %
+b1010100010001 -
+1&
+#60
+0&
+#80
+b100100011 *
+b100100011 2
+b10 ,
+b10 3
+#100
+b100100011 $
+b100100011 .
+1&
+#120
+0&
+#140
+b1100010010 *
+b1100010010 2
+b11 ,
+b11 3
+#160
+b1100010010 #
+b1100010010 /
+1&
+#180
+0&
+#200
